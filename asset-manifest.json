@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/gym-page/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/gym-page/static/js/main.13ea9f8c.chunk.js",
-    "main.js.map": "/gym-page/static/js/main.13ea9f8c.chunk.js.map",
+    "main.js": "/gym-page/static/js/main.13e49e3a.chunk.js",
+    "main.js.map": "/gym-page/static/js/main.13e49e3a.chunk.js.map",
     "runtime-main.js": "/gym-page/static/js/runtime-main.fc4292ed.js",
     "runtime-main.js.map": "/gym-page/static/js/runtime-main.fc4292ed.js.map",
     "static/js/2.e07ee681.chunk.js": "/gym-page/static/js/2.e07ee681.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.fc4292ed.js",
     "static/js/2.e07ee681.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.13ea9f8c.chunk.js"
+    "static/js/main.13e49e3a.chunk.js"
   ]
 }

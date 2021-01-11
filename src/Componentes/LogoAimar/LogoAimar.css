@@ -1,0 +1,38 @@
+.str1 {stroke:#8d4604;stroke-width:105.83;stroke-miterlimit:22.9256}
+.str0 {stroke:#373435;stroke-width:7.62;stroke-miterlimit:22.9256}
+.fil0 {fill:#373435}
+.fil1 {fill:#FDB415}
+.fil2 {fill:#FDB415;fill-rule:nonzero}
+.logoAimar{
+    margin: auto;
+    margin-top: 2px;
+    transform: skew(22deg);
+    width: 110px;
+    height: auto;
+    transition: all 1s ease;
+    display: block;
+    
+
+}
+.logoAimar.active{
+    margin: auto;
+    margin-top: 4px;
+    width: 190px;
+    height: auto;
+    transition: all 1s ease;
+    display: block;
+}
+
+@media only screen and (max-width: 800px) {
+    .logoAimar.active{
+        margin-top: calc(2px + 1vw);
+        width: calc(100px + 10vw);
+        margin-left: calc(60px + 1vw);
+        transition: all 1s ease;
+    }
+    .logoAimar {
+        margin-left: calc(60px + 5vw);
+        transition: all 1s ease;
+    }
+    
+  }

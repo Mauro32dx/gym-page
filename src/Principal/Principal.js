@@ -3,6 +3,7 @@ import BarraMenu from '../Componentes/BarraMenu/BarraMenu.js';
 import './Principal.css';
 import { Link } from 'react-scroll';
 import { Nav } from 'react-bootstrap';
+import Presentacion from '../Secciones/Presentacion/Presentacion.js'
 
 
 function Principal() {
@@ -24,8 +25,8 @@ function Principal() {
             </Nav>
           </BarraMenu>
 
-            <section className="element" id="S00" style={{ background:'#f7f7f7', height:"400px" }}>
-              Presentacion
+            <section className="element" id="S00" style={{ background:'#f7f7f7'}}>
+            <Presentacion />
             </section>
             <section id="S01" style={{ height:"400px"  }}>
               Home

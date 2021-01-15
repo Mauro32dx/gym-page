@@ -7,6 +7,7 @@ export default class Presentacion extends React.Component {
     constructor(props){
         super();
         this.state = { 
+            SliderItems:props.SliderItems
          }
     }
     
@@ -21,7 +22,7 @@ export default class Presentacion extends React.Component {
 
         return (
             <div style={ sectionStyle } >
-                <Carrusel />
+                <Carrusel  SliderItems={this.state.SliderItems} />
             </div>
         )
     }

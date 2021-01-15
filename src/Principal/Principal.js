@@ -4,7 +4,9 @@ import './Principal.css';
 import { Link } from 'react-scroll';
 import { Nav } from 'react-bootstrap';
 import Presentacion from '../Secciones/Presentacion/Presentacion.js'
-
+import Imagen1 from '../Imagenes/SeccionPresentacion/slide-1.png';
+import Imagen2 from '../Imagenes/SeccionPresentacion/slide-2.png';
+import Imagen3 from '../Imagenes/SeccionPresentacion/slide-3.png';
 
 function Principal() {
     return (
@@ -26,7 +28,23 @@ function Principal() {
           </BarraMenu>
 
             <section className="element" id="S00" style={{ background:'#f7f7f7'}}>
-            <Presentacion />
+            <Presentacion SliderItems={[
+                { Imagen: Imagen1, 
+                  Titulo:'TITULO 1', 
+                  Subtitulo:'Subtitulo 1', 
+                  Descripcion:'orem ipsum dolor sit amet consectetur adipiscing elit eleifend etiam nibh, ac ornare ante inceptos est per tempor blandit varius. Praesent vehicula nostra.'
+                },
+                { Imagen: Imagen2, 
+                  Titulo:'TITULO 2', 
+                  Subtitulo:'Subtitulo 2', 
+                  Descripcion:'orem ipsum dolor sit amet consectetur adipiscing elit eleifend etiam nibh, ac ornare ante inceptos est per tempor blandit varius.'
+                },
+                { Imagen: Imagen3, 
+                  Titulo:'TITULO 3', 
+                  Subtitulo:'Subtitulo 3', 
+                  Descripcion:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                }
+              ]}/>
             </section>
             <section id="S01" style={{ height:"400px"  }}>
               Home

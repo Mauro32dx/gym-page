@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/gym-page/static/css/main.00f9b48e.chunk.css",
-    "main.js": "/gym-page/static/js/main.e0543d1e.chunk.js",
-    "main.js.map": "/gym-page/static/js/main.e0543d1e.chunk.js.map",
-    "runtime-main.js": "/gym-page/static/js/runtime-main.1f8805ad.js",
-    "runtime-main.js.map": "/gym-page/static/js/runtime-main.1f8805ad.js.map",
+    "main.css": "/gym-page/static/css/main.31b09bca.chunk.css",
+    "main.js": "/gym-page/static/js/main.0cf74652.chunk.js",
+    "main.js.map": "/gym-page/static/js/main.0cf74652.chunk.js.map",
+    "runtime-main.js": "/gym-page/static/js/runtime-main.5a316916.js",
+    "runtime-main.js.map": "/gym-page/static/js/runtime-main.5a316916.js.map",
     "static/css/2.ae9f1eb3.chunk.css": "/gym-page/static/css/2.ae9f1eb3.chunk.css",
-    "static/js/2.0cc8ba4c.chunk.js": "/gym-page/static/js/2.0cc8ba4c.chunk.js",
-    "static/js/2.0cc8ba4c.chunk.js.map": "/gym-page/static/js/2.0cc8ba4c.chunk.js.map",
-    "static/js/3.c5119939.chunk.js": "/gym-page/static/js/3.c5119939.chunk.js",
-    "static/js/3.c5119939.chunk.js.map": "/gym-page/static/js/3.c5119939.chunk.js.map",
+    "static/js/2.9278455b.chunk.js": "/gym-page/static/js/2.9278455b.chunk.js",
+    "static/js/2.9278455b.chunk.js.map": "/gym-page/static/js/2.9278455b.chunk.js.map",
+    "static/js/3.5f7143dc.chunk.js": "/gym-page/static/js/3.5f7143dc.chunk.js",
+    "static/js/3.5f7143dc.chunk.js.map": "/gym-page/static/js/3.5f7143dc.chunk.js.map",
     "index.html": "/gym-page/index.html",
     "static/css/2.ae9f1eb3.chunk.css.map": "/gym-page/static/css/2.ae9f1eb3.chunk.css.map",
-    "static/css/main.00f9b48e.chunk.css.map": "/gym-page/static/css/main.00f9b48e.chunk.css.map",
-    "static/js/2.0cc8ba4c.chunk.js.LICENSE.txt": "/gym-page/static/js/2.0cc8ba4c.chunk.js.LICENSE.txt"
+    "static/css/main.31b09bca.chunk.css.map": "/gym-page/static/css/main.31b09bca.chunk.css.map",
+    "static/js/2.9278455b.chunk.js.LICENSE.txt": "/gym-page/static/js/2.9278455b.chunk.js.LICENSE.txt",
+    "static/media/slide-1.2b93a084.png": "/gym-page/static/media/slide-1.2b93a084.png",
+    "static/media/slide-2.ba38bf37.png": "/gym-page/static/media/slide-2.ba38bf37.png",
+    "static/media/slide-3.8883276f.png": "/gym-page/static/media/slide-3.8883276f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1f8805ad.js",
+    "static/js/runtime-main.5a316916.js",
     "static/css/2.ae9f1eb3.chunk.css",
-    "static/js/2.0cc8ba4c.chunk.js",
-    "static/css/main.00f9b48e.chunk.css",
-    "static/js/main.e0543d1e.chunk.js"
+    "static/js/2.9278455b.chunk.js",
+    "static/css/main.31b09bca.chunk.css",
+    "static/js/main.0cf74652.chunk.js"
   ]
 }

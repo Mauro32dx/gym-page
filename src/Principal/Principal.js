@@ -3,10 +3,16 @@ import BarraMenu from '../Componentes/BarraMenu/BarraMenu.js';
 import './Principal.css';
 import { Link } from 'react-scroll';
 import { Nav } from 'react-bootstrap';
-import Presentacion from '../Secciones/Presentacion/Presentacion.js'
+
+//Secciones
+import Presentacion from '../Secciones/Presentacion/Presentacion.js';
+import Home from '../Secciones/Home/Home.js';
+
+// Datos Seccion PRESENTACION
 import Imagen1 from '../Imagenes/SeccionPresentacion/slide-1.png';
 import Imagen2 from '../Imagenes/SeccionPresentacion/slide-2.png';
 import Imagen3 from '../Imagenes/SeccionPresentacion/slide-3.png';
+
 
 function Principal() {
     return (
@@ -46,8 +52,33 @@ function Principal() {
                 }
               ]}/>
             </section>
-            <section id="S01" style={{ height:"400px"  }}>
-              Home
+            <section id="S01" style={{  }}>
+              <Home TituloHomePate1="SOBRE"
+                    TituloHomePate2="NOSOTROS"
+                    Informacion={[
+                      {Parrafo:'Somos un Centro de entrenamiento con mas de 20 años de expreriencia en el rubro que abalan nuestra la calidad profecional, y siempre conservando eel espíritu de gimnasio de barrio que nos caracteriza... BLABLABLA'},
+                      {Parrafo:'Tenemos como objetivo principal brindarte el mejor servicio tanto personal como profecional, ademas del equipamiento necesario para el desarrollo de un entrenamiento eficaz, controlado y seguro.'},
+                      {Parrafo:'Nos encontramos ubicados en una de las esquinas más emblematicas de la ciudad de las diagonales.'},
+                      {Parrafo:'Y contamos con una serie de actividades fisicas y terapeuticas, que ajustaran a tus necesidades.'}
+                    ]}
+                    ItemsActividades={[
+                      { Icono: "icono1", 
+                        Titulo:'Salon de Musculacion',  
+                        Descripcion:'Lorem ipsum dolor sit amet consectetur adipiscing elit eleifend etiam nibh, ac ornare ante inceptos est per tempor blandit varius. Praesent vehicula nostra.'
+                      },
+                      { Icono: "icono2", 
+                        Titulo:'Clases de Fucional y aerobicos',  
+                        Descripcion:'Lorem ipsum dolor sit amet consectetur adipiscing elit eleifend etiam nibh, ac ornare ante inceptos est per tempor blandit varius.'
+                      },
+                      { Icono: "icono3", 
+                        Titulo:'Masajes y entrenamiento terapeutico',  
+                        Descripcion:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                      },
+                      { Icono: "icono4", 
+                        Titulo:'Entrenamiento Personalizado',  
+                        Descripcion:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                      }
+                    ]}/>
             </section>
             <section className="element" id="S02" style={{background:'#f7f7f7', height:"400px" }}>
               Actividades

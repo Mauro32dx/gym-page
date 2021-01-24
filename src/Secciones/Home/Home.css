@@ -1,0 +1,62 @@
+.logoHome {
+    width: calc(200px + 5vw);
+    height: auto;
+    z-index: 4;
+}
+.fondoHome1 {
+    fill:#f7f7f7;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: -2;
+}
+.encabezadoHome {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.tituloHome1 {
+    font-family:  sans-serif;  
+    font-size: calc(15px + 1vw);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+    font-family:sans-serif;
+    font-weight: 800;
+    text-transform: inherit;
+    color: #101010;
+}
+.tituloHome1>span {
+     color: #f63c25;
+}
+.textoHome {
+    font-family: sans-serif;
+    color: #666565;
+    font-size: calc(8px + 1vw);
+    
+}
+.contenidoHome {
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 32vw;
+}
+
+.bannerDerechaHome {
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+
+    
+}
+
+.contenedorBannerHome{
+    position: absolute;
+    z-index: -1;
+}
+.contenedorActividadesHome {
+    text-align: center;
+    margin-top: 8vw;
+    margin-bottom: 8vw;
+    
+}

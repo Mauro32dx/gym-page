@@ -1,0 +1,63 @@
+
+.contenedorIcono{
+    z-index: 5;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.178);
+    border-radius: 60px;
+    width: 120px;
+    height: 120px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 2s
+}
+
+.fondoTarjetaActividad{
+    z-index: 3;
+    width: 100%;
+    transition: all 2s 
+}
+
+.textoTituloTarjeta{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 2s
+}
+
+.ContenedorTitulo {
+    width: 100%;
+    text-align: center;
+    z-index: 5;
+    position:absolute;
+    transition: all 2s;
+    left: 0;
+    right: 0;
+  }
+
+.botonTarjetaActividad{
+    width: 100px;
+    height: 40px;
+    border: 0px;
+    border-radius: 20px;
+    outline:none !important;
+    
+    color: white;
+    background: #f63c25;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 5;
+    transition: all 1s;
+ }
+ .botonTarjetaActividad:hover {
+    background: #b91414;
+ }

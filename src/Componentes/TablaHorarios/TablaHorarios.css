@@ -1,0 +1,185 @@
+.contenedorItemActividad {
+   width: 150px;
+    border-radius: 20px;
+    padding: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: #ffffff;
+    margin: 15px;
+    transition: all 0.5s ease;
+    box-shadow: 1px 5px 7px rgba(0, 0, 0, 0.568);
+    border-style: outset;
+}
+.contenedorItemActividad:hover {
+    transform: scale(1.1);
+    color: rgba(0, 0, 0, 0.534);
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.349);
+
+}
+
+.tituloItemActividad {
+    font-family:  sans-serif;  
+    font-size: calc(16px);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    font-family:sans-serif;
+    font-weight: 800;
+    text-transform: inherit;
+    opacity: 0.9;
+}
+
+.tituloDia{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.192);
+    text-transform: uppercase;
+    
+}
+.logoItemActividad{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.514);
+    margin-left: 50px;
+    padding-top: 5px;
+    transition: all 0.7s ease;
+}
+.celdaIconoCalendario{
+    padding: 15px 25px;
+    background: rgb(39, 39, 39);
+}
+.tablaHorarios{
+    width: 100%;
+    border-collapse: collapse;
+    overflow-x:auto;
+}
+.tablaHorarios tr td:last-child{
+    border-right: 0;
+
+}
+
+/* Tabla 2 */
+.pieTabla2 {
+    border-radius:0px 0px 6px 6px; 
+    height:15px; 
+    background:#d6dbdfdc;
+    border: solid 1px #ccc;
+}
+.tablaHorarios2 {
+    width: 100%;
+    border:0;
+}
+.filaHora2>td {
+    border-top: solid 1px #ccc;
+}
+.celdaHora2 {
+    text-align: center;
+    background:  #e97736; 
+    width: 25vw;
+    border: solid 1px rgb(112, 112, 112) !important;
+    font-family:  sans-serif;  
+    font-size: calc(20px);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 800;
+    text-transform: inherit;
+    color: #ffffff;
+}
+
+.celdaDias2{
+    text-align: center;
+    vertical-align: middle;
+    background: #d6dbdfdc;
+    font-family:  sans-serif;  
+    font-size: calc(16px);
+
+    font-weight: 800;
+    text-transform: inherit;
+    color: black;
+}
+.contenedorTabla2 {
+    background: rgb(255, 255, 255);
+    padding: 0px;
+}
+
+
+
+/*   tabla 1 */
+.tablaHorariosEncabezado{
+    height: 60px;
+    background: #d6dbdfdc;
+}
+.columnaDias{
+ /*   width: 160px;  */
+    text-align: center;
+    vertical-align: middle;
+
+    font-family:  sans-serif;  
+    font-size: calc(16px);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 800;
+    text-transform: inherit;
+    color: black;
+}
+.celdaHora{
+    background:  #e97736; 
+    
+    font-family:  sans-serif;  
+    font-size: calc(20px);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 800;
+    text-transform: inherit;
+    color: #ffffff;
+}
+.FilaHora>td {
+    border-top: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+
+    border-collapse: collapse;
+    text-align: center;
+ /*   vertical-align: middle;   */
+}
+
+.contenedorTablaHoracio1 {
+    display: inline;
+    margin: 50px;
+}
+.contenedorTablaHoracio2 {
+    display: none;
+    margin: 50px;
+}
+
+.contenedorTabla1 {
+    max-width: 100%;
+    overflow-x: scroll;
+    border: solid 2px #ccc;
+    border-radius: 5px;
+}
+.contenedorTabla1::-webkit-scrollbar {
+    height: 12px;
+    background: #bec4c9;
+}
+.contenedorTabla1::-webkit-scrollbar-thumb {
+    background:  #3a3a3aea;
+    border-radius: 6px;
+    height: 10px;
+    border: solid 2px #bec4c9;
+    border-top: solid 3px #bec4c9;
+}
+.columnaFija {
+    position: sticky;
+    left: 0;
+    z-index: 7;
+
+}
+@media  screen and (max-width: 700px) { 
+    .contenedorTablaHoracio1 {
+        display: none;
+    }
+    .contenedorTablaHoracio2 {
+        display: inline;
+    }
+
+}

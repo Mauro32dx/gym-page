@@ -1,0 +1,29 @@
+.contenidoPersonal1 {
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 3vw;
+}
+.contenidoPersonal2 {
+    padding-bottom: 3vw;
+}
+.tituloPersonal1 {
+    font-family:  sans-serif;  
+    font-size: calc(15px + 1vw);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+    font-family:sans-serif;
+    font-weight: 800;
+    text-transform: inherit;
+    color: #101010;
+}
+.tituloPersonal1>span {
+     color: #f63c25;
+}
+.textoPersonal {
+    font-family: sans-serif;
+    color: #666565;
+    font-size: calc(8px + 1vw);
+    
+}
+

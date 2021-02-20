@@ -1,0 +1,272 @@
+  .botonPre,.botonNex {
+    padding: 11px;
+  margin-top: 170px;
+    position: absolute;
+      width: 50px;
+      height: 50px;
+      background:  #f65625ab;
+      border-radius: 25px;
+      z-index: 5;
+    }
+
+  .botonPre{
+  margin-left: 8%;
+  }
+  .botonNex {
+    margin-left:calc( 100% - 50px - 8% );;
+  }
+  
+  .botonPre:hover, .botonNex:hover{
+    background:#f65625bd;
+
+  }
+  .botonPre:active, .botonNex:active{
+    background: #f65625e8;
+  }
+  .contenedorBotonControles {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    z-index: 9;
+  
+  }
+  
+  .contenedorItems {
+    display: flex;
+    width: 100%;
+    justify-content: row;
+    z-index: 1;
+  }
+  
+  .itemPersonal {
+    position: absolute;
+    z-index: 1;
+    width: 250px;
+    height: 350px;
+    display: none;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: -1px 15px 30px -12px black;
+  }
+
+  .itemPersonal.visible5 {
+    z-index: 1;
+    left: calc(50% - 515px + 300px - 6*4vw);
+    transform: scale(0.3) skewY(10deg) !important;
+    background: rgb(0, 0, 0);
+    display: inline;
+    transition: all 0.7s ease;
+    opacity: 0;
+  }
+  .itemPersonal.visible3 {
+    z-index: 2;
+    left: calc(50% - 515px + 300px - 6*4vw);
+    transform: scale(0.5) skewY(10deg) !important;
+    background: rgb(0, 0, 0);
+    display: inline;
+    transition: all 0.7s ease;
+
+  }
+  .itemPersonal.visible1 {
+    left:calc(-352px + 50% + 190px - 3.7*4vw);
+    z-index: 4;
+    transform: scale(0.8) skewY(10deg) !important;
+    background: rgb(0, 0, 0);
+    display: inline;
+    transition: all 0.7s ease;
+
+  }
+  .itemPersonal.active {
+    z-index: 5;
+    left:calc(50% - 125px);
+    scale: 1;
+    display: inline;
+    background: rgb(230, 228, 228);
+    transition: all 0.7s ease;
+  }
+
+  
+  .itemPersonal.visible2 {
+    left: calc(50% + 102px - 190px + 3.7*4vw  );
+    z-index: 4;
+    transform: scale(0.8) skewY(-10deg) !important;
+    background: rgb(0, 0, 0);
+    display: inline;
+    transition: all 0.7s ease;
+  }
+  
+  .itemPersonal.visible4 {
+    z-index: 2;
+    left: calc(50% + 265px - 300px + 6*4vw);
+    transform: scale(0.5) skewY(-10deg) !important;
+    background: rgb(0, 0, 0);
+    display: inline;
+    transition: all 0.7s ease;
+  }
+  
+  .itemPersonal.visible6 {
+    z-index: 1;
+    left: calc(50% + 265px - 300px + 6*4vw);
+    transform: scale(0.3) skewY(-10deg) !important;
+    background: rgb(0, 0, 0);
+    display: inline;
+    transition: all 0.7s ease;
+    opacity: 0;
+
+  }
+  
+
+  .contenedorSliders {
+    margin: 0 auto;
+    padding-top: 25px ;
+    width: 100%;
+    height: 400px;
+  }
+
+  @media only screen and (max-width: 900px) {
+    .itemPersonal.visible1 { left:calc(-352px + 50% + 190px - 3*4vw); }
+    .itemPersonal.visible2 { left: calc(50% + 102px - 190px + 3*4vw  ); }
+    .itemPersonal.visible3 { left: calc(50% - 515px + 300px - 5*4vw); }
+    .itemPersonal.visible4 { left: calc(50% + 265px - 300px + 5*4vw); }
+  }
+  @media only screen and (max-width: 750px) {
+    .itemPersonal.visible1 { left:calc(-352px + 50% + 190px - 2*4vw); }
+    .itemPersonal.visible2 { left: calc(50% + 102px - 190px + 2*4vw  ); }
+    .itemPersonal.visible3 { left: calc(50% - 515px + 300px - 4*4vw); }
+    .itemPersonal.visible4 { left: calc(50% + 265px - 300px + 4*4vw); }
+  }
+  @media only screen and (max-width: 600px) {
+    .itemPersonal.visible1 { left:calc(-352px + 50% + 190px - 1.5*4vw); }
+    .itemPersonal.visible2 { left: calc(50% + 102px - 190px + 1.5*4vw  ); }
+    .itemPersonal.visible3 { left: calc(50% - 515px + 300px - 3*4vw); }
+    .itemPersonal.visible4 { left: calc(50% + 265px - 300px + 3*4vw); }
+  }
+  @media only screen and (max-width: 500px) {
+    .itemPersonal.visible1 { left:calc(-352px + 50% + 190px - 4vw); }
+    .itemPersonal.visible2 { left: calc(50% + 102px - 190px + 4vw  ); }
+    .itemPersonal.visible3 { left: calc(50% - 515px + 300px - 4vw); }
+    .itemPersonal.visible4 { left: calc(50% + 265px - 300px + 4vw); }
+  }
+
+
+
+.contenedorFoto{
+  border: 1px solid rgb(172, 172, 172);
+  height: 250px;
+  border-radius: 10px 10px 0px 0px;
+}
+.FondoPerfil{
+  transform: perspective(800px);
+  transform-style: preserve-3d;
+  cursor: pointer;
+  filter: blur(2px);
+  height: 250px;
+  border-radius: 10px 10px 0px 0px;
+}
+.contenedorInformacion2{
+  position: absolute;
+  background: rgb(255, 255, 255);
+  width: 100%;
+  height: 100px;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 0px -20px 15px -3px rgba(0, 0, 0, 0.801);
+  text-align: center;
+  padding: 15px;
+
+}
+.contenedorInformacion{
+  height: 100px;
+  border-radius: 0px 0px 10px 10px;
+}
+.imgItemCarruselStaff{
+  position: absolute;
+  opacity: 1;
+  height:250px;
+  margin-top: -250px;
+  padding: 20px;
+  padding-bottom: 0px;
+  width: auto;
+}
+
+.itemPersonal.visible1>div {
+opacity: 0.7;
+transform: scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.itemPersonal.visible2>div {
+  opacity: 0.7;
+}
+.itemPersonal.visible3>div {
+  opacity: 0.3;
+  filter: blur(1px);
+}
+.itemPersonal.visible4>div {
+    opacity: 0.3;
+    filter: blur(1px);
+}
+
+.itemPersonal.visible1>div>div.FondoPerfil {
+  transform: scale(1) translateX(0px) translateY(0px) !important;
+  filter: blur(1.5px) !important;
+}
+.itemPersonal.visible2>div>div.FondoPerfil {
+  transform: scale(1) translateX(0px) translateY(0px) !important;
+  filter: blur(1.5px) !important;
+}
+.itemPersonal.visible3>div>div.FondoPerfil {
+  transform: scale(1) translateX(0px) translateY(0px) !important;
+  filter: blur(1px) !important;
+}
+.itemPersonal.visible4>div>div.FondoPerfil {
+  transform: scale(1) translateX(0px) translateY(0px) !important;
+  filter: blur(1px) !important;
+}
+
+.textoNombreProfesor {
+  font-family:  sans-serif;  
+  font-weight: 800;
+  text-transform: inherit;
+
+}
+.textoProfecion {
+  font-family: sans-serif;
+  font-size: calc(13px);
+}
+
+.itemPersonal.visible1>div>div>h1.textoNombreProfesor {
+    text-shadow: 0px 0px 0px gray !important;
+    font-size: 20px !important;
+    filter: blur(1.5px) !important;
+}
+.itemPersonal.visible2>div>div>h1.textoNombreProfesor {
+    text-shadow: 0px 0px 0px gray !important;
+    font-size: 20px !important;
+    filter: blur(1.5px) !important;
+}
+.itemPersonal.visible3>div>div>h1.textoNombreProfesor {
+    text-shadow: 0px 0px 0px gray !important;
+    font-size: 20px !important;
+    filter: blur(1px) !important;
+}
+.itemPersonal.visible4>div>div>h1.textoNombreProfesor {
+    text-shadow: 0px 0px 0px gray !important;
+    font-size: 20px !important;
+    filter: blur(1px) !important;
+}
+
+.itemPersonal.visible1>div>div>p.textoProfecion {
+  color:#101010 !important;
+  filter: blur(1.5px) !important;
+}
+.itemPersonal.visible2>div>div>p.textoProfecion {
+  color:#101010 !important;
+  filter: blur(1.5px) !important;
+}
+.itemPersonal.visible3>div>div>p.textoProfecion {
+  color:#101010 !important;
+  filter: blur(1px) !important;
+}
+.itemPersonal.visible4>div>div>p.textoProfecion {
+  color:#101010 !important;
+  filter: blur(1px) !important;
+}

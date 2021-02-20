@@ -9,6 +9,7 @@ import Presentacion from '../Secciones/Presentacion/Presentacion.js';
 import Home from '../Secciones/Home/Home.js';
 import Actividades from '../Secciones/Actividades/Actividades.js';
 import Horarios from '../Secciones/Horarios/Horarios.js';
+import Personal from '../Secciones/Personal/Personal.js';
 
 // Datos Seccion PRESENTACION
 import ImagenSliderPresentacion1 from '../Imagenes/SeccionPresentacion/slide-1.png';
@@ -23,6 +24,15 @@ import ImagenActividad4 from '../Imagenes/SeccionActividades/classes-item-4.jpg'
 import ImagenActividad5 from '../Imagenes/SeccionActividades/classes-item-5.jpg';
 import ImagenActividad6 from '../Imagenes/SeccionActividades/classes-item-6.jpg';
 
+// Datos Seccion PERSONAL
+import Foto1 from '../Imagenes/SeccionPersonal/perfil1.png';
+import Foto2 from '../Imagenes/SeccionPersonal/perfil2.png';
+import Foto3 from '../Imagenes/SeccionPersonal/perfil3.png';
+import Foto4 from '../Imagenes/SeccionPersonal/perfil4.png';
+import Foto5 from '../Imagenes/SeccionPersonal/perfil5.png';
+import Foto6 from '../Imagenes/SeccionPersonal/perfil6.png';
+import Foto7 from '../Imagenes/SeccionPersonal/perfil7.png';
+import Fondo1 from '../Imagenes/SeccionPersonal/fondo1.jpg';
 
 function Principal() {
     return (
@@ -188,8 +198,56 @@ function Principal() {
                          ]}
               />
             </section>
-            <section className="element" id="S04" style={{ background:'#f7f7f7', height:"400px" }}>
-              Personal
+            <section className="element" id="S04" style={{ background:'#f7f7f7' }}>
+              <Personal TituloPersonalPate1="NUESTRO"
+                        TituloPersonalPate2="STAFF"
+                        Parrafo="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500"
+                        Items = {
+                        [
+                          { 
+                            id: 'Item0',  
+                            nombre: "NOMBRE 0",
+                            profecion: "Profesor 0",
+                            fondo: Fondo1,
+                            foto: Foto1             },
+                          { 
+                            id: 'Item1',
+                            nombre: "NOMBRE 1",
+                            profecion: "Profesor 1",
+                            fondo: Fondo1,
+                            foto: Foto2             },
+                          { 
+                            id: 'Item2',
+                            nombre: "NOMBRE 2",
+                            profecion: "Profesor 2",
+                            fondo: Fondo1,
+                            foto: Foto3             },
+                          { 
+                            id: 'Item3',
+                            nombre: "NOMBRE 3",
+                            profecion: "Profesor 3",
+                            fondo: Fondo1,
+                            foto: Foto5             },
+                          { 
+                            id: 'Item4',
+                            nombre: "NOMBRE 4",
+                            profecion: "Profesor 4",
+                            fondo: Fondo1,
+                            foto: Foto4             },
+                          { 
+                            id: 'Item5',
+                            nombre: "NOMBRE 5",
+                            profecion: "Profesor 5",
+                            fondo: Fondo1,
+                            foto: Foto6             },
+                          { 
+                            id: 'Item6',
+                            nombre: "NOMBRE 6",
+                            profecion: "Profesor 6",
+                            fondo: Fondo1,
+                            foto: Foto7             }
+                        ]}    
+              />
             </section>
             <section className="element" id="S05" style={{ height:"400px" }}>
               Tarifa

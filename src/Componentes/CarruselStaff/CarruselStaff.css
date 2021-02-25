@@ -140,12 +140,16 @@
     .itemPersonal.visible2 { left: calc(50% + 102px - 190px + 1.5*4vw  ); }
     .itemPersonal.visible3 { left: calc(50% - 515px + 300px - 3*4vw); }
     .itemPersonal.visible4 { left: calc(50% + 265px - 300px + 3*4vw); }
+    .itemPersonal.visible5 { left: calc(50% - 515px + 300px ); }
+    .itemPersonal.visible6 { left: calc(50% + 265px - 300px ); }
   }
   @media only screen and (max-width: 500px) {
     .itemPersonal.visible1 { left:calc(-352px + 50% + 190px - 4vw); }
     .itemPersonal.visible2 { left: calc(50% + 102px - 190px + 4vw  ); }
     .itemPersonal.visible3 { left: calc(50% - 515px + 300px - 4vw); }
     .itemPersonal.visible4 { left: calc(50% + 265px - 300px + 4vw); }
+    .itemPersonal.visible5 { left: calc(50% - 515px + 300px ); }
+    .itemPersonal.visible6 { left: calc(50% + 265px - 300px ); }
   }
 
 

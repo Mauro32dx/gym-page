@@ -10,6 +10,7 @@ import Home from '../Secciones/Home/Home.js';
 import Actividades from '../Secciones/Actividades/Actividades.js';
 import Horarios from '../Secciones/Horarios/Horarios.js';
 import Personal from '../Secciones/Personal/Personal.js';
+import Tarifas from '../Secciones/Tarifas/Tarifas.js';
 
 // Datos Seccion PRESENTACION
 import ImagenSliderPresentacion1 from '../Imagenes/SeccionPresentacion/slide-1.png';
@@ -33,6 +34,12 @@ import Foto5 from '../Imagenes/SeccionPersonal/perfil5.png';
 import Foto6 from '../Imagenes/SeccionPersonal/perfil6.png';
 import Foto7 from '../Imagenes/SeccionPersonal/perfil7.png';
 import Fondo1 from '../Imagenes/SeccionPersonal/fondo1.jpg';
+
+//Datos Seccion Tarifas
+import ImagenProducto1 from '../Imagenes/SeccionTarifas/shop-1.png';
+import ImagenProducto2 from '../Imagenes/SeccionTarifas/shop-2.png';
+import ImagenProducto3 from '../Imagenes/SeccionTarifas/shop-3.png';
+
 
 function Principal() {
     return (
@@ -249,8 +256,38 @@ function Principal() {
                         ]}    
               />
             </section>
-            <section className="element" id="S05" style={{ height:"400px" }}>
-              Tarifa
+            <section className="element" id="S05" style={{ }}>
+              <Tarifas TituloTarifasPate1="NUESTRAS"
+                    TituloTarifasPate2="TARIFAS"
+                    Parrafo="Consultá las opciones que te ofrecemos para entrenar acorde a tus necesidades"
+                    Subtitulo="PRODUCTOS"
+                    Parrafo2="Contamos tambien con productos complementaran tu entrenamiento. Estos productos se adquieren solo por encarge"
+                    Informacion={[
+                      {Parrafo:'Te ofrecemos realizar una actividad, ya sea Musculación, Fitness, Ciclismo o Entrenamiento Funcional. La cual podes tenes precios por cantidad de dias semanales que desees concurrir o por semana completa '},
+                      {Parrafo:'Te ofrecemos la opcion de combinar 2 o mas actividades, acorde a tus gustos y nececidades, a un ecelente precio'},
+                      {Parrafo:'Abono libre para realizar todas las actividades'}
+                    ]}
+                    Productos={[
+                      { Titulo:'PRODUCTO 1',
+                        Imagen: ImagenProducto1
+                      },
+                      { Titulo:'PRODUCTO 2',
+                        Imagen: ImagenProducto2
+                      },
+                      { Titulo:'PRODUCTO 3',
+                        Imagen: ImagenProducto3
+                      },
+                      { Titulo:'PRODUCTO 4',
+                        Imagen: ImagenProducto1
+                      },
+                      { Titulo:'PRODUCTO 5',
+                        Imagen: ImagenProducto2
+                      },
+                      { Titulo:'PRODUCTO 6',
+                        Imagen: ImagenProducto3
+                      },
+                    ]}
+                />
             </section>
             <section className="element" id="S06" style={{ background:'#f7f7f7', height:"400px" }}>
               Contacto

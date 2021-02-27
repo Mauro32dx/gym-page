@@ -1,0 +1,84 @@
+.estiloPrecio {
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 150px;
+    z-index: 4;
+    border-radius: 40px;
+ 
+    text-align: center;
+    
+    background: linear-gradient(151deg,#c41330 35%,#e75b48 70%);
+    -webkit-box-shadow: 0 10px 40px 0 rgb(0 0 0 / 43%);
+    box-shadow: 0 10px 40px 0 rgb(0 0 0 / 43%);
+    
+    width: 80px;
+    height: 80px;
+    transition: all 1s;
+
+}
+
+.itemProducto {
+    width: 200px;
+    text-align: center;
+}
+.textoTituloProducto{
+    font-family:  sans-serif;  
+    font-size: calc(20px);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+    font-family:sans-serif;
+    font-weight: 800;
+    text-transform: inherit;
+    color: #101010;
+}
+
+
+
+.itemProducto:hover .imagenProducto {
+    opacity: 0.2;
+}
+.itemProducto:hover .estiloPrecio {
+    width: 170px;
+    margin-left: 60px;
+}
+.PrecioTexto1{
+    padding-top: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    display: block;
+    
+}
+
+.itemProducto:hover .PrecioTexto1{
+    display: none;
+}
+
+.PrecioTexto2{
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    visibility: hidden;
+   
+}
+
+.itemProducto:hover .PrecioTexto2{
+    transition-delay: 700ms;
+    visibility: visible;
+    
+}
+.itemProducto:hover .imagenProducto {
+    opacity: 0.6;
+}
+.itemProducto:hover .textoTituloProducto {
+    color: #f63c25;
+}
+
+.imagenProducto{
+    width: 100%;
+    height: auto;
+    transition: all 1s;
+    z-index: 3;
+}
